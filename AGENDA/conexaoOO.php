@@ -1,6 +1,6 @@
 <?php
 //Conexao Orientada a Objeto
-$conexao = new mysqli("localhost", "root", "etec");
+$conexao = new mysqli("localhost", "root", "");
 if ($conexao->connect_errno) {
     die("Erro ao conectar com o banco de dados (" .
             $conexao->connect_errno . "). " .

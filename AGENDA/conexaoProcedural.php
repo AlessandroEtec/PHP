@@ -1,4 +1,5 @@
 <?php
+
 //Conexao Procedural
 $conexao = mysqli_connect("localhost", "root", "");
 if (!$conexao) {
@@ -9,7 +10,7 @@ if (!$conexao) {
 if (!mysqli_select_db($conexao, "agenda")) {
     die("O banco de dados não existe<br>");
 }
-echo "Conectado com o banco de dados. ";
+echo "Conectado com o banco de dados: ";
 mysqli_close($conexao);
 ?>
  

@@ -6,6 +6,6 @@ if ($conexao->connect_error) {
     die("Falha ao conectar: " . $conexao->connect_error);
 }
 if (!$conexao->select_db("agenda")) {
-    die("O Banco de dados não existe");
+    die("O Banco de dados nÃ£o existe");
 }
 ?>
